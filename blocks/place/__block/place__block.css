@@ -1,0 +1,27 @@
+.place__block {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__block {
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__block {
+        gap: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin:0;
+        gap: 32px;
+    }
+}

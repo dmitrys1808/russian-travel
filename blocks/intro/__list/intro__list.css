@@ -1,5 +1,5 @@
-.intro__list{
-    margin: 0;
+.intro__list {
+    margin-block: 0;
     padding: 0;
     font-style: normal;
     font-weight: 700;
@@ -8,8 +8,9 @@
     color: #FFFFFF;
     list-style-type: none;
 }
+
 @media screen and (max-width: 767px) {
-    .intro__list{
-            margin-bottom: 50px;
-        }
+    .intro__list {
+        margin-bottom: 64px;
+    }
 }

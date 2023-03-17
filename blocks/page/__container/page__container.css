@@ -1,6 +1,6 @@
-.page__container{
+.page__container {
     background-color: #2A2C2F;
     margin: 0 auto;
     max-width: 1280px;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial sans-serif;
 }

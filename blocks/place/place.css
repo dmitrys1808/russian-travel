@@ -1,9 +1,13 @@
-.place{
+.place {
     display: flex;
     flex-direction: column;
+    padding: 0;
 }
+
 @media screen and (max-width: 767px) {
-    .place{
-            padding: 0;
-        }
+    .place {
+        align-items: center;
+        margin-block: 0;
+        gap:32px;
+    }
 }
