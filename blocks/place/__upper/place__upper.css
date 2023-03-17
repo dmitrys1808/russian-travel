@@ -1,0 +1,22 @@
+.place__upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+    margin: 0 0 48px 0;
+}
+@media screen and (max-width: 1023px) {
+    .place__upper{
+            gap: 28px;
+        }
+}
+@media screen and (max-width: 767px) {
+    .place__upper{
+            margin: 0 16px 32px 16px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            text-align: left;
+            gap:32px;
+        }
+}
