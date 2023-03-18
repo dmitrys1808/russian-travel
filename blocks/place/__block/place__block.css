@@ -3,6 +3,9 @@
     gap: 40px;
     margin-bottom: 48px;
 }
+.place__block:last-of-type{
+    margin-bottom: 0px;
+}
 
 @media screen and (max-width: 1279px) {
     .place__block {
@@ -19,9 +22,10 @@
 @media screen and (max-width: 767px) {
     .place__block {
         flex-direction: column;
-        justify-content: center;
-        align-items: start;
         margin:0;
         gap: 32px;
+    }
+    .place__block:last-of-type{
+        align-items: center;
     }
 }
